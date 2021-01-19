@@ -1,0 +1,150 @@
+body{
+    padding:0;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#perfil img{
+    height: 32px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 25px;
+}
+
+nav ul li a{
+    padding:5px;
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(110,110,110);
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+ul{
+    list-style: none;
+}
+
+.corpo{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding-top:6.5%;
+}
+
+  button {
+    position: absolute;  
+    background-image: url("../imagens/lupa.png"); 
+    height: 40px;
+    width: 40px;
+    border-radius: 27px;
+    border:none;
+    top: 0; 
+    right: 0;
+  }
+  .search{
+      display:flex;
+      justify-content: space-between;
+      position: relative;
+      margin-top: 28px;
+      width:585px;
+      height: 45px;
+  }
+    input[type="search"]::-webkit-search-decoration,
+    input[type="search"]::-webkit-search-cancel-button,
+    input[type="search"]::-webkit-search-results-button,
+    input[type="search"]::-webkit-search-results-decoration { 
+        display: none; 
+    }
+    
+    .search input{
+      position: absolute;
+      top:0;
+      left:0;
+      width: 100%;
+      height:100%;
+      color: rgba(0,0,0,0.8);
+      font-size: 17px;
+      background-color: transparent;
+      outline:none;
+      border:1px solid rgba(131,131,131, 0.4);
+      border-radius: 27px;
+      padding:0 10px 0 45px;
+  }
+  .search input:hover{
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.4);
+  }
+ 
+  .search .fa-search, .search .fa-keyboard-o{
+      padding:14px;
+      color: rgb(200,191,231);
+  }
+  .search .fa-keyboard-o{
+      color:(131,131,131);
+  }
+  .botoes{
+      display: flex;
+      height: 288;
+      justify-content: space-between;
+  }
+  .botoes input{
+      margin: 7.5px;
+      margin-top: 30px;
+      background-color: rgb(248,249,250);
+      outline:none;
+      border:none;
+      padding: 10px 15px 10px 15px;
+      color: rgba(0,0,0,0.8);
+      font-size: 14px;
+      border-radius: 5px;
+  }
+  .botoes input:hover{
+      box-shadow: 0px 0px 2px rgba(0,0,0,0.6);
+  }
+  .tudo{
+      display: flex;
+      flex-direction: column;
+  }
+  .rodape1 p{
+      padding-left:5px;
+      margin:10px;
+      font-size: 17px;
+      color: rgb(110,110,110);
+  }
+  .rodape{
+      display:flex;
+      flex-direction: column;
+      padding:0;
+      margin-top:11.77777%;
+  }
+  fieldset{
+      display: flex;
+      justify-content: space-between;
+      margin:0;
+      padding:0;
+      border: 1px solid rgb(210,210,210);
+      background-color: rgb(242,242,242);
+  }
+  fieldset ul{
+      display: flex;
+      margin:0;
+      padding:10px;
+  }
+
+fieldset ul li a{
+    padding:5px;
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(110,110,110);
+}
+fieldset ul li a:hover{
+    text-decoration: underline;
+}
+fieldset{
+    list-style: none;
+}
